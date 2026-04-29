@@ -8,8 +8,8 @@ os.makedirs("output", exist_ok=True)
 evictions = pd.read_csv("Evictions_20260428.csv")
 
 # simple example plot (you can improve this)
-evictions["executed_date"] = pd.to_datetime(evictions["executed_date"], errors="coerce")
-evictions["year"] = evictions["executed_date"].dt.year
+evictions["Executed Date"] = pd.to_datetime(evictions["Executed Date"], errors="coerce")
+evictions["year"] = evictions["Executed Date"].dt.year
 
 yearly = evictions.groupby("year").size()
 
