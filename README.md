@@ -1,6 +1,5 @@
 # CS301 Milestone 2 – NYC Evictions Analysis
 
-## Overview
 This project analyzes eviction patterns across New York City boroughs using eviction records and demographic data. The goal is to understand how demographic and housing characteristics relate to eviction rates.
 
 ## Project Contents
