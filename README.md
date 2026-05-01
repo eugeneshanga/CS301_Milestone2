@@ -18,5 +18,8 @@ This project analyzes eviction patterns across New York City boroughs using evic
 ### Build the container
 ```
 docker build -t cs301-evictions .
+```
+### Run the docker
+```
 docker run -v $(pwd)/output:/app/output cs301-evictions
 ```
